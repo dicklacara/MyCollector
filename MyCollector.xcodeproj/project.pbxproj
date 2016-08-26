@@ -13,6 +13,8 @@
 		795CDE4E1D6F58FE00FEB768 /* MyCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 795CDE4C1D6F58FE00FEB768 /* MyCollector.xcdatamodeld */; };
 		795CDE501D6F58FE00FEB768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 795CDE4F1D6F58FE00FEB768 /* Assets.xcassets */; };
 		795CDE531D6F58FE00FEB768 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795CDE511D6F58FE00FEB768 /* LaunchScreen.storyboard */; };
+		795CDE5C1D6F733200FEB768 /* 1024585-6-20150622170553-how-a-farting-drummer-cost-a-dc-bar-500.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 795CDE5B1D6F733200FEB768 /* 1024585-6-20150622170553-how-a-farting-drummer-cost-a-dc-bar-500.jpg */; };
+		795CDE5E1D6F748800FEB768 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795CDE5D1D6F748800FEB768 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,9 @@
 		795CDE4F1D6F58FE00FEB768 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		795CDE521D6F58FE00FEB768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		795CDE541D6F58FE00FEB768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		795CDE5A1D6F72F600FEB768 /* Bralowe.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bralowe.psd; sourceTree = "<group>"; };
+		795CDE5B1D6F733200FEB768 /* 1024585-6-20150622170553-how-a-farting-drummer-cost-a-dc-bar-500.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1024585-6-20150622170553-how-a-farting-drummer-cost-a-dc-bar-500.jpg"; sourceTree = "<group>"; };
+		795CDE5D1D6F748800FEB768 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +61,11 @@
 		795CDE441D6F58FE00FEB768 /* MyCollector */ = {
 			isa = PBXGroup;
 			children = (
+				795CDE5A1D6F72F600FEB768 /* Bralowe.psd */,
+				795CDE5B1D6F733200FEB768 /* 1024585-6-20150622170553-how-a-farting-drummer-cost-a-dc-bar-500.jpg */,
 				795CDE451D6F58FE00FEB768 /* AppDelegate.swift */,
 				795CDE471D6F58FE00FEB768 /* ViewController.swift */,
+				795CDE5D1D6F748800FEB768 /* SecondViewController.swift */,
 				795CDE491D6F58FE00FEB768 /* Main.storyboard */,
 				795CDE4F1D6F58FE00FEB768 /* Assets.xcassets */,
 				795CDE511D6F58FE00FEB768 /* LaunchScreen.storyboard */,
@@ -128,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				795CDE531D6F58FE00FEB768 /* LaunchScreen.storyboard in Resources */,
+				795CDE5C1D6F733200FEB768 /* 1024585-6-20150622170553-how-a-farting-drummer-cost-a-dc-bar-500.jpg in Resources */,
 				795CDE501D6F58FE00FEB768 /* Assets.xcassets in Resources */,
 				795CDE4B1D6F58FE00FEB768 /* Main.storyboard in Resources */,
 			);
@@ -140,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				795CDE5E1D6F748800FEB768 /* SecondViewController.swift in Sources */,
 				795CDE4E1D6F58FE00FEB768 /* MyCollector.xcdatamodeld in Sources */,
 				795CDE481D6F58FE00FEB768 /* ViewController.swift in Sources */,
 				795CDE461D6F58FE00FEB768 /* AppDelegate.swift in Sources */,
@@ -306,6 +316,7 @@
 				795CDE591D6F58FE00FEB768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
