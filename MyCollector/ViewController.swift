@@ -24,7 +24,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
         do {
             collectionItems = try context.fetch(MyCollection.fetchRequest())
-            print("=======\(collectionItems)")
+            tableView.reloadData()
+            //print("=======\(collectionItems)")
         } catch {
             
         }
@@ -40,7 +41,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let cell = UITableViewCell()
         let collectionItem = collectionItems[indexPath.row]
         cell.textLabel?.text = collectionItem.title
-        print(">>>>>>>>>>>> \(indexPath.row) \(collectionItem.title)")
+        cell.imageView?.image = UIImage(data: collectionItem.image as! Data)
+        //print(">>>>>>>>>>>> \(indexPath.row) \(collectionItem.title)")
         
         return cell
     }

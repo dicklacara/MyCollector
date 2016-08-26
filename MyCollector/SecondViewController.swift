@@ -27,8 +27,11 @@ class SecondViewController: UIViewController, UIImagePickerControllerDelegate, U
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
         let myCollection = MyCollection(context: context)
         myCollection.title = titleTextField.text
+        //        cell.imageView?.image = UIImage(data: collectionItem.image as! Data)
+
         myCollection.image = UIImagePNGRepresentation(myImageView.image!) as? NSData
         (UIApplication.shared.delegate as! AppDelegate).saveContext()
+        navigationController!.popViewController(animated: true)
     }
     
     var imagePicker = UIImagePickerController()

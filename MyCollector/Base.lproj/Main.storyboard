@@ -59,7 +59,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XYT-XS-j76" userLabel="My Image View" customClass="MyImageView">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DontFart.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="XYT-XS-j76" userLabel="My Image View" customClass="MyImageView">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="280" id="Ss1-UT-VVW"/>
                                     <constraint firstAttribute="height" constant="150" id="aH2-Fv-gEk"/>
@@ -132,4 +132,7 @@
             <point key="canvasLocation" x="141.59999999999999" y="-543.77811094452773"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="DontFart.jpg" width="231" height="250"/>
+    </resources>
 </document>
