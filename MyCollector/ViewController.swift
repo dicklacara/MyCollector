@@ -42,10 +42,20 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let collectionItem = collectionItems[indexPath.row]
         cell.textLabel?.text = collectionItem.title
         cell.imageView?.image = UIImage(data: collectionItem.image as! Data)
-        //print(">>>>>>>>>>>> \(indexPath.row) \(collectionItem.title)")
         
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let collectionItem = collectionItems[indexPath.row]
+        performSegue(withIdentifier: "collectionSegue", sender: collectionItem)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nextVC = segue.destination as! SecondViewController
+        nextVC.collectionItem = sender as? MyCollection
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
